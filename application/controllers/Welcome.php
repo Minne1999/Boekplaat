@@ -24,6 +24,7 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('boekplaat');
+		$this->load->view('footer');
 	}
 
 	public function boeken()
@@ -32,6 +33,7 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('boeken');
+		$this->load->view('footer');
 	}
 
 	public function account()
@@ -40,6 +42,7 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('account');
+		$this->load->view('footer');
 	}
 
 	public function contact()
@@ -48,5 +51,6 @@ class Welcome extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('contact');
+		$this->load->view('footer');
 	}
 }

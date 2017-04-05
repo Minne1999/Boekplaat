@@ -1,5 +1,6 @@
 * {
 	margin: 0px;
+	font-family: Elephant;
 }
 
 #header {
@@ -8,7 +9,6 @@
 	background-color: #0DA6E0;
 	height: 60px;
 	font-size: 20px;
-	font-family: Elephant;
 	color: white;
 	overflow:hidden;
 }
@@ -25,11 +25,32 @@
 	overflow:hidden;
 }
 
+#header a {
+	height: 30px;
+	float: right;
+	font-size: 20px;
+	margin: 10px 10px 0px 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#searchBar {
+	margin-top: 10px;
+	margin-right: 10px;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    float: right;
+    display: block;
+    border: none;
+    border-radius: 3px;
+}
+
 #navbar {
 	padding: 5px;
 	background-color: #0DA6E0;
 	border-radius: 2px;
-	height: 20px;
+	height: 25px;
 	text-align: center;
 	font-size: 20px;
 }
@@ -95,4 +116,23 @@
 
 #buttonRight:hover{
 	background-color: #0B88B8;
+}
+
+#footer {
+	background-color: #0DA6E0;
+	position: fixed;
+	padding-top: 5px;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    overflow:hidden;
+    color: fff;
+    text-align: center;
+}
+
+#footer a {
+	background-color: #0DA6E0;
+	text-decoration: none;
+	color: #fff;
 }
