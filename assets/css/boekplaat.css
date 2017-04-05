@@ -1,0 +1,98 @@
+* {
+	margin: 0px;
+}
+
+#header {
+	margin: 0px;
+	padding: 5px;
+	background-color: #0DA6E0;
+	height: 60px;
+	font-size: 20px;
+	font-family: Elephant;
+	color: white;
+	overflow:hidden;
+}
+
+#header h1{
+	background-color: #0DA6E0;
+	margin: 0px;
+	float: left;
+}
+
+#header img {
+	height: 45px;
+	float: right;
+	overflow:hidden;
+}
+
+#navbar {
+	padding: 5px;
+	background-color: #0DA6E0;
+	border-radius: 2px;
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#navbar a {
+	background-color: #0DA6E0;
+	text-decoration: none;
+	color: white;
+	padding-right: 65px;
+	padding-left: 65px;
+	font-size: 20px;
+}
+
+#navbar a:hover{
+	background-color: #0B88B8;
+	border-radius: 3px;
+}
+
+#imageSlider {
+	margin-top: 5px;
+	color: #fff;
+	overflow:hidden;
+	height: 500px;
+	width: 100%;
+}
+
+#imageSlider img {
+	max-height: 490px;
+	maxwidth: 80%;
+	margin-left: 200px;
+	float: left;
+	display: inline-block;
+	overflow:hidden;
+}
+
+#buttonLeft{
+	background-color: #0DA6E0;
+	color: #fff;
+	padding: 0;
+	border: none;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	float: left;
+	vertical-align:top;
+}
+
+#buttonRight{
+	background-color: #0DA6E0;
+	color: #fff;
+	padding: 0;
+	border: none;
+	float: right;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+	vertical-align:top;
+}
+
+#buttonLeft:hover{
+	background-color: #0B88B8;
+}
+
+#buttonRight:hover{
+	background-color: #0B88B8;
+}
