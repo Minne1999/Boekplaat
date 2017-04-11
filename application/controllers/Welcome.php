@@ -59,8 +59,29 @@ class Welcome extends CI_Controller {
 		$this->load->helper('html');
 		$this->load->helper('url');
 		$this->load->view('header');
-		$this->load->view('contact');
+		$this->load->database();
+		$this->load->view('login');
 		$this->load->view('footer');
-
 	}
+
+	public function mijnAccount()
+	{
+		$this->load->helper('html');
+		$this->load->helper('url');
+		$this->load->view('header');
+		$this->load->database();
+		$this->load->view('mijnAccount');
+		$this->load->view('footer');
+	}
+
+	public function registreren()
+	{
+		$this->load->helper('html');
+		$this->load->helper('url');
+		$this->load->view('header');
+		$this->load->database();
+		$this->load->view('registreren');
+		$this->load->view('footer');
+	}
+
 }
