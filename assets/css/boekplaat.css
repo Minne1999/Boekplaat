@@ -70,20 +70,23 @@
 }
 
 #imageSlider {
+	height:100%;
 	margin-top: 5px;
 	color: #fff;
 	overflow:hidden;
-	height: 500px;
 	width: 100%;
 }
 
 #imageSlider img {
-	max-height: 490px;
-	maxwidth: 80%;
-	margin-left: 200px;
+	
+	margin: 10px 20px;
 	float: left;
 	display: inline-block;
 	overflow:hidden;
+}
+
+.mySlides img {
+	max-width: 300px;
 }
 
 #buttonLeft{

@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<input id="searchBar" type="text" name="search" placeholder="Zoeken">
 			</form>
 
-			<a href="#login">login</a>
+			<a href="<?php echo base_url().index_page();?>/welcome/login">Login</a>
 		</div>
 
 		<div id="navbar">
