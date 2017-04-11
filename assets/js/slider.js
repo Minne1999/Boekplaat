@@ -14,5 +14,5 @@ function showDivs(n) {
         x[i].style.display = "none"; 
     }
     x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 2500);
+    setTimeout(slideIndex, 2500);
 }
