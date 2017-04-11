@@ -121,6 +121,43 @@
 	background-color: #0B88B8;
 }
 
+#contactForm {
+	margin: 10px;
+	font-size: 18px;
+}
+
+#llnummer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 250px;
+	font-size: 20px;
+	border-radius: 3px;
+	border: 2px solid #0DA6E0;
+}
+
+#Textarea {
+	height: 300px;
+	width: 500px;
+	font-size: 15px;
+	border-radius: 3px;
+	border: 2px solid #0DA6E0;
+}
+
+#contactButton {
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	border: 2px solid #0DA6E0;
+	background-color: #0DA6E0;
+	font-size: 20px;
+	color: #fff;
+}
+
+#contactButton:hover {
+	background-color: #0B88B8;
+}
+
 #footer {
 	background-color: #0DA6E0;
 	position: fixed;
