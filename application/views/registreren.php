@@ -1,6 +1,6 @@
 <?php 
 
-if(isset($_POST['submit'])){
+if(isset($this->input->post('submit'))){
 
 	$data = array(
         'mail' => $this->input->post('mail') . '@edu.rocfriesepoort.nl',

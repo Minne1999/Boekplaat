@@ -1,25 +1,33 @@
 <?php
     session_start();
 
-
     if (isset($_POST['submit'])) {
-        $username = strip_tags($_POST['name']);
-        $password = strip_tags($_POST['password']);
+        $username = strip_tags($this->input->post('name'));
+        $password = strip_tags($this->input->post('password'));
              
         $query = $this->db->get("accounts");
 
 		foreach ($query->result() as $row)
 		{
-
+            if( $username == $row->mail){
         if ($username == $row->mail && $password == $row->wachtwoord){
-           header('Location: mijnAccount');
+           header('Location: account');
         } else {
             echo "Incorrect Password";
         }
+        }
 		} 
 
-     $_SESSION["username"] = $username;
-     $_SESSION["password"] = $password;         
+       // $this->session->set_userdata($username);
+       // $this->session->set_userdata($password); 
+
+        /* $userLogin = array(
+        'username'  => $username,
+        'logged_in' => TRUE
+        );
+
+        $this->session->set_userdata($userLogin);
+    */
     }
 
 ?>
